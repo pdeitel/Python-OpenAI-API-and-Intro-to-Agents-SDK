@@ -21,9 +21,9 @@ Favor clarity, directness, and predictable behavior over cleverness.
 
 ## Python environment
 
-- Use conda environment `openai-course` for all Python scripts and tests.
-- Run Python scripts with `conda run -n openai-course python <script>.py`.
-- Run tests with `conda run -n openai-course python -m pytest -v`.
+- Use conda environment `deitel-openai` for all Python scripts and tests.
+- Run Python scripts with `conda run -n deitel-openai python <script>.py`.
+- Run tests with `conda run -n deitel-openai python -m pytest -v`.
 - Do not use plain `python`, `pip`, or `pytest` unless I explicitly ask.
 - If a package is missing, report the exact `conda run` or `pip` command 
   needed to install it, but do not change environments unless asked.
